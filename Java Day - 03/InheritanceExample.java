@@ -3,6 +3,7 @@ class Animal {          // Base class
     void eat() {
         System.out.println("This animal eats food.");
     }
+
 }
 
 // Derived class
@@ -11,6 +12,7 @@ class Dog extends Animal {
         System.out.println("The dog barks.");
     }
 }
+
 
 class Cat extends Animal {
     void bark() {
@@ -27,5 +29,6 @@ public class InheritanceExample {
 
         cat.eat();
         cat.bark();
+
     }
 }
