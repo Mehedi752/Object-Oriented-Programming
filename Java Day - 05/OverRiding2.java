@@ -18,7 +18,7 @@ class child extends parent{
 
 public class OverRiding2 {
     public static void main(String[] args) {
-        // parent ob = new parent(30, 40);
+        parent ob = new parent(30, 40);
         child myOb = new child(10, 20);
     }
 }
